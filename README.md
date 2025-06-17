@@ -3,7 +3,7 @@
 ## 1. Project Goal
 
 The main goal of this project is to demonstrate how a classical four-step transportation model can be calibrated using data science tools.  
-We simulate a simplified transport network and use synthetic Origin-Destination (OD) matrices, route assignment logic, and observed traffic counts to calibrate the model and improve its predictive accuracy.
+I created a simplified transport network and used synthetic Origin-Destination (OD) matrices, route assignment logic, and observed traffic counts to calibrate the model and improve its predictive accuracy.
 
 This project combines my background in Transport Systems Engineering with my data science training and aims to provide a practical, portfolio-ready case study. It is particularly relevant for short- and medium-term transport planning tasks where accurate demand estimation is essential.
 
@@ -19,12 +19,11 @@ Distributes the generated trips between origin and destination zones, forming an
 
 ### Step 3: Mode Choice  
 Determines the proportion of trips by each mode of transport (e.g., car, public transport, walking).  
-*(Note: In this project, we simplify the model by using a single mode.)*
+*(Note: In this project, I simplifed the model by using a single mode.)*
 
 ### Step 4: Route Assignment  
 Assigns trips from the OD matrix to specific routes or links in the network based on route costs, typically travel time or distance.
 
-The result is a prediction of traffic volumes on individual road segments, which can then be compared tl-world traffic counts.
 
 ## 3. Why is Calibration Important?
 
@@ -34,7 +33,7 @@ Even a correctly structured model can produce inaccurate forecasts if the OD mat
 Calibration adjusts the model inputs — particularly the OD matrix — so that the model's output (simulated traffic flows) better matches observed traffic counts.  
 This process helps ensure that the model can be used for practical decision-making, such as infrastructure planning, traffic management, or evaluating policy scenarios.
 
-In this project, we demonstrate a simple calibration procedure using synthetic data. We measure model performance before and after calibration using std error metrics (e.g., MAPE, RMSE).
+This project demonstrates a simple calibration procedure using synthetic data. Model performance was measured before and after calibration using std error metrics (e.g., MAPE, RMSE).
 
 By the end of the project, we will have:
 - Built a basic four-step transport model using Python and synthetic data
