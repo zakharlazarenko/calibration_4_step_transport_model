@@ -5,7 +5,7 @@
 The main goal of this project is to demonstrate how a classical four-step transportation model can be calibrated using data science tools.  
 We simulate a simplified transport network and use synthetic Origin-Destination (OD) matrices, route assignment logic, and observed traffic counts to calibrate the model and improve its predictive accuracy.
 
-This project combines my background in Transport Systems Engineering with my data science training and aims to provide a practical, portfolio-ready case study. It is particularly relevant for short- and medium-term transport planning tasks where accurate demand estimation is ess.
+This project combines my background in Transport Systems Engineering with my data science training and aims to provide a practical, portfolio-ready case study. It is particularly relevant for short- and medium-term transport planning tasks where accurate demand estimation is essential.
 
 ## 2. What is the Four-Step Transportation Model?
 
